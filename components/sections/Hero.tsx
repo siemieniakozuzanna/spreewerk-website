@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 const words = ['Sanierung.', 'Präzision.', 'Berlin.']
@@ -21,7 +20,7 @@ export function Hero() {
           sizes="100vw"
         />
         {/* Left gradient — creates readable zone for text without killing the photo */}
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/85 via-navy/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/45 to-transparent" />
         {/* Bottom gradient — anchors the text visually */}
         <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
       </div>
@@ -81,23 +80,26 @@ export function Hero() {
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1.1 }}
-            className="flex flex-col sm:flex-row gap-4 items-start"
+            className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center"
           >
-            <Link
-              href="/kontakt"
-              className="inline-block bg-white text-navy text-[13px] font-semibold font-body tracking-[0.06em] uppercase px-8 py-4 hover:bg-blue hover:text-white transition-all duration-300"
+            {/* Primary — scroll to contact */}
+            <a
+              href="#kontakt"
+              className="inline-flex items-center justify-center gap-3 bg-blue text-white font-body font-medium text-[15px] px-7 rounded-full min-h-[56px] hover:bg-blue/85 transition-colors duration-300 sm:w-auto w-full"
             >
-              Kostenlos anfragen
-            </Link>
-            <Link
-              href="/projekte"
-              className="inline-flex items-center gap-2.5 text-white/60 text-[14px] font-medium font-body hover:text-white transition-colors duration-200 py-4"
-            >
-              Projekte ansehen
-              <svg width="16" height="9" viewBox="0 0 16 9" fill="none">
-                <path d="M1 4.5H15M15 4.5L11 1M15 4.5L11 8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+              Kostenlose Kostenschätzung
+              <svg width="16" height="9" viewBox="0 0 16 9" fill="none" className="flex-shrink-0">
+                <path d="M1 4.5H15M15 4.5L11 1M15 4.5L11 8" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </Link>
+            </a>
+
+            {/* Secondary — phone */}
+            <a
+              href="tel:030544532946"
+              className="inline-flex items-center justify-center gap-2.5 border border-white/50 text-white font-body font-medium text-[15px] px-7 rounded-full min-h-[56px] hover:bg-white hover:text-navy transition-all duration-300 sm:w-auto w-full"
+            >
+              030 544 532 946
+            </a>
           </motion.div>
         </div>
 

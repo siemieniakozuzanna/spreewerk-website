@@ -9,7 +9,7 @@ import { AnimatedSection } from '@/components/ui/AnimatedSection'
 
 export function ContactCTA() {
   return (
-    <section className="bg-navy relative overflow-hidden">
+    <section id="kontakt" className="bg-navy relative overflow-hidden">
       <BlueprintLines />
       <SWWatermark />
 
