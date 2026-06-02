@@ -18,36 +18,37 @@ export function AltbauExpertise() {
           src="/assets/team/altbauwork1.png"
           alt="Spreewerk Team bei der Altbausanierung in Berlin"
           fill
-          className="object-cover object-center"
+          className="object-cover object-left md:object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-navy/78" />
+        {/* Mobile: heavy overlay — image is bright plaster/windows throughout */}
+        <div className="absolute inset-0 bg-navy/[0.88] md:bg-navy/[0.78]" />
       </div>
 
       {/* Content */}
-      <div className="relative max-w-site mx-auto px-6 md:px-12 lg:px-20 py-24 md:py-36 w-full">
+      <div className="relative max-w-site mx-auto px-6 md:px-12 lg:px-20 py-20 md:py-36 w-full">
         <div className="max-w-2xl">
           <AnimatedSection>
             <SectionLabel light>Berliner Altbau</SectionLabel>
             <h2
-              className="font-heading font-bold text-white mb-6"
-              style={{ fontSize: 'clamp(40px, 5vw, 68px)', lineHeight: 0.97 }}
+              className="font-heading font-bold text-white mb-7 md:mb-6"
+              style={{ fontSize: 'clamp(36px, 5vw, 68px)', lineHeight: 0.97 }}
             >
               Berliner Altbau.
               <br />
               Unser Zuhause.
             </h2>
-            <p className="text-white/60 font-body text-[16px] md:text-[18px] leading-[1.75] mb-10 max-w-lg">
+            <p className="text-white/80 md:text-white/60 font-body text-[15px] md:text-[18px] leading-[1.8] mb-8 md:mb-10 max-w-lg">
               Stuckgesimse, Fischgrätparkett, Kassettenfenster, Gründerzeitfassaden — wir verstehen historische Bausubstanz nicht als Einschränkung, sondern als das eigentliche Qualitätsmerkmal.
               Was andere als schwierig abtun, ist für uns der Kern der Arbeit.
             </p>
 
             {/* Expertise points */}
-            <div className="space-y-4">
+            <div className="space-y-5 md:space-y-4">
               {expertise.map((item) => (
                 <div key={item} className="flex items-start gap-4">
                   <div className="w-0.5 bg-blue flex-shrink-0 self-stretch min-h-[20px]" />
-                  <p className="text-white/80 font-body text-[15px]">{item}</p>
+                  <p className="text-white/90 md:text-white/80 font-body text-[14px] md:text-[15px]">{item}</p>
                 </div>
               ))}
             </div>

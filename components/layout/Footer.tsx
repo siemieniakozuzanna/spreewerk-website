@@ -24,13 +24,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pb-16 border-b border-white/10">
           {/* Brand */}
           <div>
-            <div className="relative w-36 h-12 mb-6">
+            <div className="mb-6">
               <Image
-                src="/assets/logo/logo-alt.png"
+                src="/assets/logo/logo-w-cropped.png"
                 alt="Spreewerk Sanierung Berlin"
-                fill
-                className="object-contain object-left"
-                sizes="144px"
+                width={1011}
+                height={188}
+                className="h-8 w-auto"
               />
             </div>
             <p className="text-white/50 text-[15px] font-body leading-relaxed max-w-xs">

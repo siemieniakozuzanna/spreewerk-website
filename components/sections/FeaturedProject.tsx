@@ -52,7 +52,7 @@ export function FeaturedProject() {
               historische Substanz vollständig erhalten.
             </p>
 
-            <div className="grid grid-cols-3 gap-0 mb-10 pt-7 border-t border-concrete-grey">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0 mb-10 pt-7 border-t border-concrete-grey">
               {[
                 { label: 'Typ', value: 'Komplettsanierung' },
                 { label: 'Ort', value: 'Berlin' },
