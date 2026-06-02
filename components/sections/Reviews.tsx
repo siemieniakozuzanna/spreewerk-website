@@ -108,7 +108,7 @@ export function Reviews() {
               <div className="bg-white rounded-2xl p-7 shadow-[0_2px_24px_rgba(9,18,36,0.06)] border border-dark/[0.04] flex flex-col h-full">
                 <Stars size={14} />
                 <p className="text-dark/65 font-body text-[15px] leading-[1.8] mt-5 flex-1">
-                  „{review.text}"
+                  {`„${review.text}"`}
                 </p>
                 <div className="flex items-center gap-2 mt-6 pt-5 border-t border-dark/[0.06]">
                   <div className="w-7 h-7 rounded-full bg-dark/[0.06] flex items-center justify-center flex-shrink-0">
