@@ -28,23 +28,42 @@ export function Gallery() {
             <GalleryItem project={projects[1]} imageIndex={0} />
           </AnimatedSection>
 
-          {/* Row 2: three equal */}
+          {/* Row 2: three equal — all at h-72 md:h-96 for better bathroom visibility */}
           <AnimatedSection delay={0.05}>
-            {/* p03: Badsanierung Mosaikfliesen — shift right+down to reveal bathtub */}
-            <GalleryItem project={projects[2]} imageIndex={0} objectPosition="62% 58%" />
+            {/* p03: Badsanierung Mosaikfliesen — right+down to reveal bathtub */}
+            <GalleryItem
+              project={projects[2]}
+              imageIndex={0}
+              objectPosition="62% 58%"
+              heightClass="h-72 md:h-96"
+            />
           </AnimatedSection>
           <AnimatedSection delay={0.1}>
-            <GalleryItem project={projects[3]} imageIndex={0} />
+            <GalleryItem
+              project={projects[3]}
+              imageIndex={0}
+              heightClass="h-72 md:h-96"
+            />
           </AnimatedSection>
           <AnimatedSection delay={0.15}>
-            {/* p05: Bad Dunkelgrün — shift down to reveal shower/sink, reduce ceiling */}
-            <GalleryItem project={projects[4]} imageIndex={0} objectPosition="50% 68%" />
+            {/* p05: Bad Dunkelgrün — push far down to expose fixtures, reduce dark upper wall */}
+            <GalleryItem
+              project={projects[4]}
+              imageIndex={0}
+              objectPosition="50% 80%"
+              heightClass="h-72 md:h-96"
+            />
           </AnimatedSection>
 
           {/* Row 3: full-width */}
           <AnimatedSection delay={0.1} className="md:col-span-3">
-            {/* p06: Bad Travertin — shift left+down to centre shower niches, reduce empty wall */}
-            <GalleryItem project={projects[5]} imageIndex={0} wide objectPosition="38% 62%" />
+            {/* p06: Bad Travertin — left+down to centre shower niches, reduce empty wall */}
+            <GalleryItem
+              project={projects[5]}
+              imageIndex={0}
+              wide
+              objectPosition="38% 62%"
+            />
           </AnimatedSection>
         </div>
 
@@ -70,23 +89,27 @@ function GalleryItem({
   tall = false,
   wide = false,
   objectPosition = '50% 50%',
+  heightClass,
 }: {
   project: (typeof projects)[0]
   imageIndex: number
   tall?: boolean
   wide?: boolean
   objectPosition?: string
+  heightClass?: string
 }) {
   const href = project.hasDetailPage ? `/projekte/${project.slug}` : '/projekte'
   const src = project.images[imageIndex] ?? project.images[0]
 
+  const defaultHeight = wide
+    ? 'h-56 md:h-72'
+    : tall
+    ? 'h-72 md:h-[480px]'
+    : 'h-60 md:h-72'
+
   return (
     <Link href={href} className="block group overflow-hidden relative">
-      <div
-        className={`relative overflow-hidden ${
-          wide ? 'h-56 md:h-72' : tall ? 'h-72 md:h-[480px]' : 'h-60 md:h-72'
-        }`}
-      >
+      <div className={`relative overflow-hidden ${heightClass ?? defaultHeight}`}>
         <Image
           src={src}
           alt={project.title}
