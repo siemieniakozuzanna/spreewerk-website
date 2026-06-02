@@ -66,6 +66,20 @@ export function Process() {
             </AnimatedSection>
           ))}
         </div>
+
+        {/* CTA */}
+        <AnimatedSection delay={0.3} className="mt-16 md:mt-20 flex justify-center">
+          <a
+            href="#kontakt"
+            className="inline-flex items-center justify-center gap-3 bg-blue text-white font-body font-semibold text-[16px] px-9 rounded-full min-h-[60px] w-full sm:w-auto hover:bg-blue/85 transition-colors duration-300"
+          >
+            Kostenlose Kostenschätzung
+            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" className="flex-shrink-0">
+              <path d="M1 4.5H15M15 4.5L11 1M15 4.5L11 8" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </a>
+        </AnimatedSection>
+
       </div>
     </section>
   )
