@@ -85,7 +85,7 @@ export function Hero() {
             {/* Primary — scroll to contact */}
             <a
               href="#kontakt"
-              className="inline-flex items-center justify-center gap-3 bg-blue text-white font-body font-medium text-[15px] px-7 rounded-full min-h-[56px] hover:bg-blue/85 transition-colors duration-300 sm:w-auto w-full"
+              className="inline-flex items-center justify-center gap-3 bg-blue text-white font-body font-semibold text-[16px] px-9 rounded-full min-h-[60px] hover:bg-blue/85 transition-colors duration-300 sm:w-auto w-full"
             >
               Kostenlose Kostenschätzung
               <svg width="16" height="9" viewBox="0 0 16 9" fill="none" className="flex-shrink-0">
@@ -96,7 +96,7 @@ export function Hero() {
             {/* Secondary — phone */}
             <a
               href="tel:030544532946"
-              className="inline-flex items-center justify-center gap-2.5 border border-white/50 text-white font-body font-medium text-[15px] px-7 rounded-full min-h-[56px] hover:bg-white hover:text-navy transition-all duration-300 sm:w-auto w-full"
+              className="inline-flex items-center justify-center gap-2.5 border border-white/40 text-white/80 font-body font-medium text-[14px] px-7 rounded-full min-h-[52px] hover:bg-white hover:text-navy hover:border-white transition-all duration-300 sm:w-auto w-full"
             >
               030 544 532 946
             </a>
