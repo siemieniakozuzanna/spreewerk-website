@@ -30,18 +30,21 @@ export function Gallery() {
 
           {/* Row 2: three equal */}
           <AnimatedSection delay={0.05}>
-            <GalleryItem project={projects[2]} imageIndex={0} />
+            {/* p03: Badsanierung Mosaikfliesen — shift right+down to reveal bathtub */}
+            <GalleryItem project={projects[2]} imageIndex={0} objectPosition="62% 58%" />
           </AnimatedSection>
           <AnimatedSection delay={0.1}>
             <GalleryItem project={projects[3]} imageIndex={0} />
           </AnimatedSection>
           <AnimatedSection delay={0.15}>
-            <GalleryItem project={projects[4]} imageIndex={0} />
+            {/* p05: Bad Dunkelgrün — shift down to reveal shower/sink, reduce ceiling */}
+            <GalleryItem project={projects[4]} imageIndex={0} objectPosition="50% 68%" />
           </AnimatedSection>
 
           {/* Row 3: full-width */}
           <AnimatedSection delay={0.1} className="md:col-span-3">
-            <GalleryItem project={projects[5]} imageIndex={0} wide />
+            {/* p06: Bad Travertin — shift left+down to centre shower niches, reduce empty wall */}
+            <GalleryItem project={projects[5]} imageIndex={0} wide objectPosition="38% 62%" />
           </AnimatedSection>
         </div>
 
@@ -66,11 +69,13 @@ function GalleryItem({
   imageIndex,
   tall = false,
   wide = false,
+  objectPosition = '50% 50%',
 }: {
   project: (typeof projects)[0]
   imageIndex: number
   tall?: boolean
   wide?: boolean
+  objectPosition?: string
 }) {
   const href = project.hasDetailPage ? `/projekte/${project.slug}` : '/projekte'
   const src = project.images[imageIndex] ?? project.images[0]
@@ -87,6 +92,7 @@ function GalleryItem({
           alt={project.title}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+          style={{ objectPosition }}
           sizes={
             wide
               ? '100vw'
