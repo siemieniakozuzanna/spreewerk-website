@@ -15,7 +15,7 @@ export function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 40)
+    const handleScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.88)
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
@@ -28,9 +28,9 @@ export function Navigation() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ${
           scrolled
-            ? 'bg-navy/98 py-3 backdrop-blur-sm border-b border-white/[0.07]'
+            ? 'bg-navy py-3 backdrop-blur-md border-b border-white/[0.08] shadow-[0_2px_24px_rgba(8,26,58,0.18)]'
             : 'bg-transparent py-5'
         }`}
       >
