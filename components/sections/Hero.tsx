@@ -7,7 +7,7 @@ const words = ['Sanierung.', 'Präzision.', 'Berlin.']
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-end pb-24 md:pb-36 overflow-hidden">
+    <section className="relative min-h-screen flex items-end pb-16 md:pb-28 overflow-hidden">
       {/* Background — best finished renovation: restored Gründerzeit salon */}
       <div className="absolute inset-0">
         <Image

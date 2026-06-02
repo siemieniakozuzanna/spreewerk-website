@@ -26,7 +26,7 @@ export function AltbauExpertise() {
       </div>
 
       {/* Content */}
-      <div className="relative max-w-site mx-auto px-6 md:px-12 lg:px-20 py-20 md:py-36 w-full">
+      <div className="relative max-w-site mx-auto px-6 md:px-12 lg:px-20 py-16 md:py-24 w-full">
         <div className="max-w-2xl">
           <AnimatedSection>
             <SectionLabel light>Berliner Altbau</SectionLabel>

@@ -51,7 +51,7 @@ function FAQRow({ item }: { item: FAQItem }) {
 
 export function FAQ() {
   return (
-    <section className="bg-warm-white py-24 md:py-36">
+    <section className="bg-warm-white py-16 md:py-24">
       <div className="max-w-site mx-auto px-6 md:px-12 lg:px-20">
         <AnimatedSection className="mb-14">
           <SectionLabel>Häufige Fragen</SectionLabel>

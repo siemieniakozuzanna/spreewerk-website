@@ -4,7 +4,7 @@ import { AnimatedSection } from '@/components/ui/AnimatedSection'
 
 export function Certifications() {
   return (
-    <section className="bg-white py-24 md:py-32">
+    <section className="bg-white py-12 md:py-16">
       <div className="max-w-site mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           <AnimatedSection className="lg:col-span-4">
@@ -38,7 +38,7 @@ export function Certifications() {
 
 export function CertificationsPartners() {
   return (
-    <section className="bg-white py-24 md:py-32">
+    <section className="bg-white py-12 md:py-16">
       <div className="max-w-site mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           <AnimatedSection className="lg:col-span-4">

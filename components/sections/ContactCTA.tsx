@@ -32,7 +32,7 @@ export function ContactCTA() {
         </div>
       </AnimatedSection>
 
-      <div className="relative max-w-site mx-auto px-6 md:px-12 lg:px-20 py-24 md:py-36">
+      <div className="relative max-w-site mx-auto px-6 md:px-12 lg:px-20 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20">
           {/* Left */}
           <AnimatedSection className="lg:col-span-6">
