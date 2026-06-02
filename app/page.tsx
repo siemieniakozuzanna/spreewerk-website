@@ -1,4 +1,5 @@
 import { Hero } from '@/components/sections/Hero'
+import { Reviews } from '@/components/sections/Reviews'
 import { TrustStrip } from '@/components/sections/TrustStrip'
 import { Services } from '@/components/sections/Services'
 import { FeaturedProject } from '@/components/sections/FeaturedProject'
@@ -30,6 +31,7 @@ export default function HomePage() {
       />
       <main>
         <Hero />
+        <Reviews />
         <TrustStrip />
         <FeaturedProject />
         <Certifications />
