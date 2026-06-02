@@ -31,12 +31,12 @@ export default function HomePage() {
       />
       <main>
         <Hero />
-        <Reviews />
         <TrustStrip />
         <FeaturedProject />
         <Certifications />
         <BeforeAfterShowcase />
         <Services />
+        <Reviews />
         <Process />
         <FuerWen />
         <AltbauExpertise />
