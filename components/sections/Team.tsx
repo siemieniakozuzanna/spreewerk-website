@@ -46,7 +46,7 @@ export function Team() {
                     alt={member.title}
                     fill
                     className="object-cover"
-                    style={{ objectPosition: '50% 22%' }}
+                    style={{ objectPosition: '50% 30%' }}
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
