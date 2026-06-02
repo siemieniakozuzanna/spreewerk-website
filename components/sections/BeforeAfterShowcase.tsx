@@ -32,21 +32,21 @@ export function BeforeAfterShowcase() {
           </h2>
         </AnimatedSection>
 
-        {/* Premium slider — Project 01 Altbauwohnung */}
+        {/* Premium slider — Project 07 */}
         <AnimatedSection className="mb-6">
           <div className="mb-3 flex items-center justify-between">
             <span className="text-[11px] font-medium tracking-[0.18em] uppercase text-navy/40 font-body">
-              Altbauwohnung mit Bogenfenster
+              Sanierungsprojekt Berlin
             </span>
             <span className="text-[11px] font-medium text-navy/30 font-body hidden md:block">
               Ziehen zum Vergleichen
             </span>
           </div>
           <BeforeAfterSlider
-            beforeSrc="/assets/projects/p01-before.png"
-            afterSrc="/assets/projects/p01-after2.png"
-            beforeAlt="Altbauwohnung vor der Sanierung"
-            afterAlt="Altbauwohnung nach der Sanierung"
+            beforeSrc="/assets/projects/p07-before.png"
+            afterSrc="/assets/projects/p07-after.png"
+            beforeAlt="Projekt 7 vor der Sanierung"
+            afterAlt="Projekt 7 nach der Sanierung"
           />
         </AnimatedSection>
 
