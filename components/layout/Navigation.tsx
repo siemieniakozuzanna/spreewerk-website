@@ -74,7 +74,7 @@ export function Navigation() {
             {/* Primary CTA */}
             <a
               href="#kontakt"
-              className="inline-flex items-center justify-center gap-2 bg-blue text-white font-body font-semibold text-[13px] px-6 rounded-full h-[48px] hover:bg-blue/85 transition-colors duration-300 whitespace-nowrap"
+              className="inline-flex items-center justify-center gap-2 bg-white text-navy font-body font-semibold text-[13px] px-6 rounded-full h-[48px] hover:bg-[#F5F5F5] transition-colors duration-300 whitespace-nowrap"
             >
               Kostenlose Kostenschätzung
               <svg width="13" height="7" viewBox="0 0 13 7" fill="none" className="flex-shrink-0">
