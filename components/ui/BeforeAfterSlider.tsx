@@ -59,7 +59,7 @@ export function BeforeAfterSlider({
       onTouchMove={(e) => updatePosition(e.touches[0].clientX)}
       onTouchEnd={() => setIsDragging(false)}
     >
-      {/* AFTER — base layer (right side, always visible) */}
+      {/* AFTER - base layer (right side, always visible) */}
       <div className="absolute inset-0">
         <Image
           src={afterSrc}
@@ -71,7 +71,7 @@ export function BeforeAfterSlider({
         />
       </div>
 
-      {/* BEFORE — clips from left edge to drag position */}
+      {/* BEFORE - clips from left edge to drag position */}
       <div
         className="absolute inset-0 overflow-hidden"
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
@@ -103,7 +103,7 @@ export function BeforeAfterSlider({
         </svg>
       </div>
 
-      {/* Labels — corners */}
+      {/* Labels - corners */}
       <div className="absolute bottom-5 left-5 z-10 text-[11px] tracking-[0.2em] uppercase text-white font-medium font-body bg-navy/50 px-2.5 py-1.5 pointer-events-none">
         VOR
       </div>

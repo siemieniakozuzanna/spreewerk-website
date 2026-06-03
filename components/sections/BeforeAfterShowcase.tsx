@@ -32,7 +32,7 @@ export function BeforeAfterShowcase() {
           </h2>
         </AnimatedSection>
 
-        {/* Premium slider — Project 07 */}
+        {/* Premium slider - Project 07 */}
         <AnimatedSection className="mb-6">
           <div className="mb-3 flex items-center justify-between">
             <span className="text-[11px] font-medium tracking-[0.18em] uppercase text-navy/40 font-body">
@@ -45,8 +45,8 @@ export function BeforeAfterShowcase() {
           <BeforeAfterSlider
             beforeSrc="/assets/projects/p07-before.png"
             afterSrc="/assets/projects/p07-after.png"
-            beforeAlt="Wohnungssanierung Berlin — Zustand vor der Sanierung"
-            afterAlt="Wohnungssanierung Berlin — Ergebnis nach hochwertiger Sanierung durch Spreewerk"
+            beforeAlt="Wohnungssanierung Berlin - Zustand vor der Sanierung"
+            afterAlt="Wohnungssanierung Berlin - Ergebnis nach hochwertiger Sanierung durch Spreewerk"
           />
         </AnimatedSection>
 
@@ -63,7 +63,7 @@ export function BeforeAfterShowcase() {
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
                       src={pair.before}
-                      alt={`${pair.label} Berlin — vor der Sanierung`}
+                      alt={`${pair.label} Berlin - vor der Sanierung`}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -75,7 +75,7 @@ export function BeforeAfterShowcase() {
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
                       src={pair.after}
-                      alt={`${pair.label} Berlin — nach der Sanierung durch Spreewerk`}
+                      alt={`${pair.label} Berlin - nach der Sanierung durch Spreewerk`}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"

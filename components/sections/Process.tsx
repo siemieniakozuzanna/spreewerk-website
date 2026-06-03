@@ -12,7 +12,7 @@ const steps = [
     number: '02',
     title: 'Vor-Ort-Termin',
     description:
-      'Wir kommen zu Ihnen — kostenlos, unverbindlich, gründlich.',
+      'Wir kommen zu Ihnen - kostenlos, unverbindlich, gründlich.',
   },
   {
     number: '03',
@@ -38,7 +38,7 @@ export function Process() {
             className="font-heading font-semibold text-dark"
             style={{ fontSize: 'clamp(36px, 4vw, 56px)', lineHeight: 1.05 }}
           >
-            Ihre Sanierung in Berlin — von der Anfrage bis zur Übergabe.
+            Von der Anfrage bis zur Übergabe.
           </h2>
         </AnimatedSection>
 

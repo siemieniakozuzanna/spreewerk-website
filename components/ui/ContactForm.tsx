@@ -34,7 +34,7 @@ export function ContactForm() {
         <textarea
           rows={5}
           className="w-full bg-white/5 border border-white/10 text-white font-body text-[15px] px-4 py-3 focus:outline-none focus:border-white/30 transition-colors resize-none placeholder:text-white/20"
-          placeholder="Beschreiben Sie kurz Ihr Vorhaben — Lage, Größe, Umfang…"
+          placeholder="Beschreiben Sie kurz Ihr Vorhaben - Lage, Größe, Umfang…"
         />
       </div>
       <button

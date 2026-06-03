@@ -25,7 +25,7 @@ export function UeberStory() {
                 leeren Versprechen beim Termin.
               </p>
               <p>
-                Unser Team besteht aus erfahrenen Fachkräften, die Berlin kennen — seine Bauten,
+                Unser Team besteht aus erfahrenen Fachkräften, die Berlin kennen - seine Bauten,
                 seinen Bestand, seine Anforderungen. Wir arbeiten in Altbauten wie in Neubauten,
                 in kleinen Wohnungen wie in großen Gewerbeprojekten.
               </p>

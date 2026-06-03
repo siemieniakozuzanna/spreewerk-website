@@ -18,7 +18,7 @@ export function TrustStrip() {
         <div className="flex items-center gap-4 flex-shrink-0">
           <div className="w-px h-6 bg-blue flex-shrink-0" />
           <p className="text-white/60 text-[13px] font-body">
-            Zertifiziertes Handwerksunternehmen — Berlin
+            Zertifiziertes Handwerksunternehmen - Berlin
           </p>
         </div>
         <div className="flex items-center gap-5 sm:gap-7 overflow-x-auto scrollbar-none -mr-6 sm:mr-0 pr-6 sm:pr-0 sm:flex-wrap">

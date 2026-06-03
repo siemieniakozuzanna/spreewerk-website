@@ -9,7 +9,7 @@ import { ContactCTA } from '@/components/sections/ContactCTA'
 export const metadata: Metadata = {
   title: 'Projekte',
   description:
-    'Referenzprojekte von Spreewerk Sanierung Berlin. Altbauwohnungen, Küchen, Bäder und mehr — aus ganz Berlin.',
+    'Referenzprojekte von Spreewerk Sanierung Berlin. Altbauwohnungen, Küchen, Bäder und mehr - aus ganz Berlin.',
 }
 
 export default function ProjektePage() {

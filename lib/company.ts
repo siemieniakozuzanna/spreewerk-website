@@ -2,7 +2,7 @@ export const company = {
   name: 'Spreewerk Sanierung Berlin',
   tagline: 'Sanierung. Präzision. Berlin.',
   description:
-    'Professionelle Sanierung in Berlin und Brandenburg — von der Planung bis zur schlüsselfertigen Übergabe.',
+    'Professionelle Sanierung in Berlin und Brandenburg - von der Planung bis zur schlüsselfertigen Übergabe.',
   phone: 'PLACEHOLDER_PHONE',
   email: 'PLACEHOLDER_EMAIL',
   address: {

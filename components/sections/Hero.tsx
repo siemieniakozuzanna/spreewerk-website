@@ -8,20 +8,20 @@ const words = ['Sanierung.', 'Präzision.', 'Berlin.']
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-end pb-16 md:pb-28 overflow-hidden">
-      {/* Background — best finished renovation: restored Gründerzeit salon */}
+      {/* Background - best finished renovation: restored Gründerzeit salon */}
       <div className="absolute inset-0">
         <Image
           src="/assets/hero/hero-main.png"
-          alt="Hochwertige Altbausanierung in Berlin — Komplettsanierung durch Spreewerk Sanierung Berlin"
+          alt="Hochwertige Altbausanierung in Berlin - Komplettsanierung durch Spreewerk Sanierung Berlin"
           fill
           className="object-cover"
           style={{ objectPosition: '50% center' }}
           priority
           sizes="100vw"
         />
-        {/* Left gradient — creates readable zone for text without killing the photo */}
+        {/* Left gradient - creates readable zone for text without killing the photo */}
         <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/45 to-transparent" />
-        {/* Bottom gradient — anchors the text visually */}
+        {/* Bottom gradient - anchors the text visually */}
         <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
       </div>
 
@@ -40,7 +40,7 @@ export function Hero() {
             </span>
           </motion.div>
 
-          {/* Headline — staggered word reveal */}
+          {/* Headline - staggered word reveal */}
           <h1
             className="font-heading font-bold text-white mb-10"
             style={{ fontSize: 'clamp(54px, 7.5vw, 96px)', lineHeight: '0.91', letterSpacing: '-0.02em' }}
@@ -71,8 +71,8 @@ export function Hero() {
             className="text-white/55 font-body leading-[1.75] mb-12 max-w-sm"
             style={{ fontSize: 'clamp(16px, 1.4vw, 19px)' }}
           >
-            Altbausanierung und Wohnungssanierung in Berlin —
-            hochwertige Komplettsanierung für anspruchsvolle Immobilien.
+            Altbausanierung in Berlin - hochwertige Wohnungs- und
+            Badsanierungen für anspruchsvolle Immobilien.
           </motion.p>
 
           {/* CTAs */}
@@ -82,7 +82,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 1.1 }}
             className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center"
           >
-            {/* Primary — scroll to contact */}
+            {/* Primary - scroll to contact */}
             <a
               href="#kontakt"
               className="inline-flex items-center justify-center gap-3 bg-blue text-white font-body font-semibold text-[16px] px-9 rounded-full min-h-[60px] hover:bg-blue/85 transition-colors duration-300 sm:w-auto w-full"
@@ -93,7 +93,7 @@ export function Hero() {
               </svg>
             </a>
 
-            {/* Secondary — phone */}
+            {/* Secondary - phone */}
             <a
               href="tel:030544532946"
               className="inline-flex items-center justify-center gap-2.5 border border-white/40 text-white/80 font-body font-medium text-[14px] px-7 rounded-full min-h-[52px] hover:bg-white hover:text-navy hover:border-white transition-all duration-300 sm:w-auto w-full"
@@ -103,7 +103,7 @@ export function Hero() {
           </motion.div>
         </div>
 
-        {/* Scroll indicator — right edge */}
+        {/* Scroll indicator - right edge */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

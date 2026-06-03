@@ -29,7 +29,7 @@ export function FuerWen() {
     <section className="bg-warm-white py-16 md:py-24">
       <div className="max-w-site mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
-          {/* Left — editorial statement */}
+          {/* Left - editorial statement */}
           <AnimatedSection className="lg:col-span-4 flex flex-col justify-start lg:justify-center">
             <SectionLabel>Für wen wir arbeiten</SectionLabel>
             <p
@@ -40,7 +40,7 @@ export function FuerWen() {
             </p>
           </AnimatedSection>
 
-          {/* Right — typographic list */}
+          {/* Right - typographic list */}
           <div className="lg:col-span-8">
             {clientTypes.map((client, i) => (
               <AnimatedSection key={client.title} delay={i * 0.07}>

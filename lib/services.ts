@@ -18,13 +18,13 @@ export const services: Service[] = [
     shortTitle: 'Komplettsanierung',
     headline: 'Ihre Wohnung.\nVollständig erneuert.',
     intro:
-      'Eine Komplettsanierung in Berlin bedeutet mehr als das Erneuern von Oberflächen. Wir übernehmen die vollständige Koordination aller Gewerke — von der Elektrik bis zum Parkett — und übergeben Ihre Wohnung termingerecht und zum Festpreis. Ob Altbauwohnung in Prenzlauer Berg oder Neubau in Mitte: Wir sanieren mit dem Anspruch, den jede Berliner Immobilie verdient.',
+      'Eine Komplettsanierung in Berlin bedeutet mehr als das Erneuern von Oberflächen. Wir übernehmen die vollständige Koordination aller Gewerke - von der Elektrik bis zum Parkett - und übergeben Ihre Wohnung termingerecht und zum Festpreis. Ob Altbauwohnung in Prenzlauer Berg oder Neubau in Mitte: Wir sanieren mit dem Anspruch, den jede Berliner Immobilie verdient.',
     image: '/assets/services/komplettsanierung.png',
     scope: [
       {
         title: 'Gesamtkoordination',
         description:
-          'Ein Ansprechpartner für alle Gewerke — Elektrik, Sanitär, Trockenbau, Boden, Oberflächen.',
+          'Ein Ansprechpartner für alle Gewerke - Elektrik, Sanitär, Trockenbau, Boden, Oberflächen.',
       },
       {
         title: 'Vor-Ort-Planung',
@@ -50,11 +50,11 @@ export const services: Service[] = [
     faq: [
       {
         q: 'Was kostet eine Komplettsanierung in Berlin?',
-        a: 'Die Kosten hängen von Zustand, Größe und Ausstattungsniveau ab. Nach unserem kostenlosen Vor-Ort-Termin erhalten Sie ein detailliertes Festpreisangebot — ohne versteckte Kosten.',
+        a: 'Die Kosten hängen von Zustand, Größe und Ausstattungsniveau ab. Nach unserem kostenlosen Vor-Ort-Termin erhalten Sie ein detailliertes Festpreisangebot - ohne versteckte Kosten.',
       },
       {
         q: 'Wie lange dauert eine Komplettsanierung?',
-        a: 'Eine Standardwohnung (60–100 m²) sanieren wir typischerweise in 4–8 Wochen. Größere Einheiten oder Altbauten mit Substanzschäden können länger dauern — das klären wir transparent im Vorfeld.',
+        a: 'Eine Standardwohnung (60–100 m²) sanieren wir typischerweise in 4–8 Wochen. Größere Einheiten oder Altbauten mit Substanzschäden können länger dauern - das klären wir transparent im Vorfeld.',
       },
       {
         q: 'Können Sie auch während der Bewohnung sanieren?',
@@ -65,7 +65,7 @@ export const services: Service[] = [
         a: 'Ja. Wir übernehmen die Koordination aller Gewerke inklusive Sanitär, Fliesenleger, Elektrik und Möbelplanung auf Wunsch.',
       },
     ],
-    metaTitle: 'Komplettsanierung Berlin | Spreewerk Sanierung — Festpreis & Qualität',
+    metaTitle: 'Komplettsanierung Berlin | Spreewerk Sanierung - Festpreis & Qualität',
     metaDescription:
       'Komplettsanierung in Berlin zum Festpreis. Altbauwohnungen, Neubauten, Büros. Schlüsselfertig, termingerecht. Jetzt Vor-Ort-Termin vereinbaren.',
   },
@@ -75,13 +75,13 @@ export const services: Service[] = [
     shortTitle: 'Bad & Küche',
     headline: 'Räume, die täglich\nüberzeugen.',
     intro:
-      'Bäder und Küchen sind die anspruchsvollsten Räume einer Wohnung — technisch, handwerklich und gestalterisch. Wir sanieren Ihr Bad und Ihre Küche in Berlin mit handverlesenen Materialien, präziser Ausführung und einem Festpreis, der vor Baubeginn vereinbart wird. Das Ergebnis: Räume, die funktionieren, die dauerhaft halten und die Sie täglich genießen.',
+      'Bäder und Küchen sind die anspruchsvollsten Räume einer Wohnung - technisch, handwerklich und gestalterisch. Wir sanieren Ihr Bad und Ihre Küche in Berlin mit handverlesenen Materialien, präziser Ausführung und einem Festpreis, der vor Baubeginn vereinbart wird. Das Ergebnis: Räume, die funktionieren, die dauerhaft halten und die Sie täglich genießen.',
     image: '/assets/services/bad-kueche.png',
     scope: [
       {
         title: 'Kompletter Badumbau',
         description:
-          'Von der Entkernung bis zur Endmontage — Fliesen, Sanitär, Elektrik, Beleuchtung.',
+          'Von der Entkernung bis zur Endmontage - Fliesen, Sanitär, Elektrik, Beleuchtung.',
       },
       {
         title: 'Küchensanierung',
@@ -91,7 +91,7 @@ export const services: Service[] = [
       {
         title: 'Hochwertige Materialien',
         description:
-          'Feinsteinzeug, Naturstein, Mikrozement — wir beraten Sie zur optimalen Materialwahl.',
+          'Feinsteinzeug, Naturstein, Mikrozement - wir beraten Sie zur optimalen Materialwahl.',
       },
       {
         title: 'Barrierefreiheit',
@@ -115,14 +115,14 @@ export const services: Service[] = [
       },
       {
         q: 'Kümmern Sie sich auch um die Küchenanschlüsse?',
-        a: 'Ja. Wir legen Wasseranschlüsse, Abflüsse und Elektroanschlüsse fachgerecht — abgestimmt auf Ihre Küchenplanung.',
+        a: 'Ja. Wir legen Wasseranschlüsse, Abflüsse und Elektroanschlüsse fachgerecht - abgestimmt auf Ihre Küchenplanung.',
       },
       {
         q: 'Können Sie auch bei einer laufenden Küchenmontage unterstützen?',
         a: 'Absolut. Viele Kunden koordinieren ihre Küchen über einen Möbelhändler und übergeben uns die Rohbauarbeiten. Diese Schnittstelle managen wir professionell.',
       },
     ],
-    metaTitle: 'Badsanierung Berlin | Küchensanierung Berlin — Spreewerk Sanierung',
+    metaTitle: 'Badsanierung Berlin | Küchensanierung Berlin - Spreewerk Sanierung',
     metaDescription:
       'Professionelle Bad- und Küchensanierung in Berlin. Festpreis, hochwertige Materialien, 2–3 Wochen Ausführungszeit. Kostenloser Vor-Ort-Termin.',
   },
@@ -132,7 +132,7 @@ export const services: Service[] = [
     shortTitle: 'Wasserschäden & Schimmel',
     headline: 'Schäden beheben.\nUrsachen lösen.',
     intro:
-      'Ein Wasserschaden oder Schimmelbefall in Berlin erfordert schnelles, fachkundiges Handeln. Wir beseitigen nicht nur das Sichtbare — wir gehen der Ursache auf den Grund, sanieren die Bausubstanz dauerhaft und dokumentieren alle Maßnahmen lückenlos für Versicherungen und Hausverwaltungen.',
+      'Ein Wasserschaden oder Schimmelbefall in Berlin erfordert schnelles, fachkundiges Handeln. Wir beseitigen nicht nur das Sichtbare - wir gehen der Ursache auf den Grund, sanieren die Bausubstanz dauerhaft und dokumentieren alle Maßnahmen lückenlos für Versicherungen und Hausverwaltungen.',
     image: '/assets/services/wasserschaden.png',
     scope: [
       {
@@ -143,7 +143,7 @@ export const services: Service[] = [
       {
         title: 'Ursachenbehebung',
         description:
-          'Leckortung, Rohrprüfung und Behebung der Schadensursache — nicht nur Symptombehandlung.',
+          'Leckortung, Rohrprüfung und Behebung der Schadensursache - nicht nur Symptombehandlung.',
       },
       {
         title: 'Schimmelsanierung',
@@ -172,14 +172,14 @@ export const services: Service[] = [
       },
       {
         q: 'Ist Schimmel in der Wohnung gesundheitsgefährlich?',
-        a: 'Ja, bei größeren Befällen sind Schimmelpilze gesundheitsschädlich. Professionelle Sanierung ist zwingend erforderlich — keine Eigenbehandlung mit Haushaltsmitteln.',
+        a: 'Ja, bei größeren Befällen sind Schimmelpilze gesundheitsschädlich. Professionelle Sanierung ist zwingend erforderlich - keine Eigenbehandlung mit Haushaltsmitteln.',
       },
       {
         q: 'Können Sie auch in bewohnten Räumen sanieren?',
         a: 'Je nach Ausmaß des Schadens ist das möglich. Wir treffen alle notwendigen Schutzmaßnahmen und informieren Sie transparent.',
       },
     ],
-    metaTitle: 'Wasserschaden Sanierung Berlin | Schimmelsanierung — Spreewerk',
+    metaTitle: 'Wasserschaden Sanierung Berlin | Schimmelsanierung - Spreewerk',
     metaDescription:
       'Wasserschaden und Schimmelsanierung in Berlin. Schnelle Reaktion, dauerhafte Lösung, Versicherungsdokumentation. Jetzt Termin anfragen.',
   },
@@ -189,13 +189,13 @@ export const services: Service[] = [
     shortTitle: 'Innenausbau & Oberflächen',
     headline: 'Präzision\nin jedem Detail.',
     intro:
-      'Trockenbau, Putz, Estrich, Parkett, Lackierungen — der Innenausbau entscheidet über Qualität und Langlebigkeit jeder Sanierung. Spreewerk setzt in Berlin auf handwerkliche Präzision und Materialien, die halten. Ob historischer Stuckputz im Altbau oder moderner Mikrozement im Neubau: Wir arbeiten mit dem nötigen Sachverstand für das Material und den Bestand.',
+      'Trockenbau, Putz, Estrich, Parkett, Lackierungen - der Innenausbau entscheidet über Qualität und Langlebigkeit jeder Sanierung. Spreewerk setzt in Berlin auf handwerkliche Präzision und Materialien, die halten. Ob historischer Stuckputz im Altbau oder moderner Mikrozement im Neubau: Wir arbeiten mit dem nötigen Sachverstand für das Material und den Bestand.',
     image: '/assets/services/innenausbau.png',
     scope: [
       {
         title: 'Trockenbau',
         description:
-          'Raumaufteilung, Verkleidungen, abgehängte Decken — präzise ausgeführt.',
+          'Raumaufteilung, Verkleidungen, abgehängte Decken - präzise ausgeführt.',
       },
       {
         title: 'Putz & Spachtel',
@@ -210,7 +210,7 @@ export const services: Service[] = [
       {
         title: 'Malerarbeiten',
         description:
-          'Deckend, lasierend, Tapetenarbeiten — sauber und termingerecht.',
+          'Deckend, lasierend, Tapetenarbeiten - sauber und termingerecht.',
       },
       {
         title: 'Türen & Zargen',
@@ -229,10 +229,10 @@ export const services: Service[] = [
       },
       {
         q: 'Welche Wandoberflächen bieten Sie an?',
-        a: 'Glattstrich, Kalkputz, Filzputz, Tapeten, Mikrozement, Strukturputze — wir beraten Sie zur passenden Oberfläche für Ihren Raum.',
+        a: 'Glattstrich, Kalkputz, Filzputz, Tapeten, Mikrozement, Strukturputze - wir beraten Sie zur passenden Oberfläche für Ihren Raum.',
       },
     ],
-    metaTitle: 'Innenausbau Berlin | Stuck, Parkett, Oberflächen — Spreewerk Sanierung',
+    metaTitle: 'Innenausbau Berlin | Stuck, Parkett, Oberflächen - Spreewerk Sanierung',
     metaDescription:
       'Innenausbau in Berlin: Trockenbau, Putz, Parkett, Stuckreparatur, Malerarbeiten. Handwerkliche Präzision für Altbau und Neubau.',
   },
@@ -242,7 +242,7 @@ export const services: Service[] = [
     shortTitle: 'Dachgeschossausbau',
     headline: 'Berlin von oben.\nNeu gedacht.',
     intro:
-      'Ein Dachgeschossausbau in Berlin schafft einzigartigen Wohnraum — unter Dachschrägen, mit Blick auf Dächer und Höfe, mit dem Charme des Besonderen. Wir realisieren Dachgeschossausbauten von der Genehmigungsplanung bis zur schlüsselfertigen Übergabe. Mit fundierten Kenntnissen der Berliner Bauordnung, handwerklichem Können und einem Festpreis, dem Sie vertrauen können.',
+      'Ein Dachgeschossausbau in Berlin schafft einzigartigen Wohnraum - unter Dachschrägen, mit Blick auf Dächer und Höfe, mit dem Charme des Besonderen. Wir realisieren Dachgeschossausbauten von der Genehmigungsplanung bis zur schlüsselfertigen Übergabe. Mit fundierten Kenntnissen der Berliner Bauordnung, handwerklichem Können und einem Festpreis, dem Sie vertrauen können.',
     image: '/assets/services/dachgeschoss.png',
     scope: [
       {
@@ -263,7 +263,7 @@ export const services: Service[] = [
       {
         title: 'Innenausbau',
         description:
-          'Trockenbau, Böden, Elektrik, Sanitär — alles aus einer Hand.',
+          'Trockenbau, Böden, Elektrik, Sanitär - alles aus einer Hand.',
       },
       {
         title: 'Schlüsselfertige Übergabe',
@@ -274,7 +274,7 @@ export const services: Service[] = [
     faq: [
       {
         q: 'Braucht man für einen Dachgeschossausbau in Berlin eine Baugenehmigung?',
-        a: 'In den meisten Fällen ja — insbesondere wenn strukturelle Veränderungen geplant sind. Wir begleiten Sie durch den Genehmigungsprozess.',
+        a: 'In den meisten Fällen ja - insbesondere wenn strukturelle Veränderungen geplant sind. Wir begleiten Sie durch den Genehmigungsprozess.',
       },
       {
         q: 'Wie lange dauert ein Dachgeschossausbau in Berlin?',
@@ -285,9 +285,9 @@ export const services: Service[] = [
         a: 'Ja, wir arbeiten regelmäßig mit Berliner Architekturbüros zusammen und übernehmen die ausführende Rolle als Generalunternehmer.',
       },
     ],
-    metaTitle: 'Dachgeschossausbau Berlin | Spreewerk — Genehmigung & Ausbau',
+    metaTitle: 'Dachgeschossausbau Berlin | Spreewerk - Genehmigung & Ausbau',
     metaDescription:
-      'Dachgeschossausbau in Berlin — von der Baugenehmigung bis zur schlüsselfertigen Übergabe. Berliner Bauordnung, Festpreis. Jetzt beraten lassen.',
+      'Dachgeschossausbau in Berlin - von der Baugenehmigung bis zur schlüsselfertigen Übergabe. Berliner Bauordnung, Festpreis. Jetzt beraten lassen.',
   },
   {
     slug: 'technische-gewerke',
@@ -295,7 +295,7 @@ export const services: Service[] = [
     shortTitle: 'Technische Gewerke',
     headline: 'Die Technik,\ndie alles trägt.',
     intro:
-      'Elektroinstallation, Sanitär, Heizung, Lüftung — technische Gewerke bilden das unsichtbare Fundament jeder Sanierung. Spreewerk koordiniert und führt alle technischen Arbeiten in Berlin nach aktuellen Normen aus. Für eine dauerhafte, sichere und energieeffiziente Grundlage Ihrer Immobilie.',
+      'Elektroinstallation, Sanitär, Heizung, Lüftung - technische Gewerke bilden das unsichtbare Fundament jeder Sanierung. Spreewerk koordiniert und führt alle technischen Arbeiten in Berlin nach aktuellen Normen aus. Für eine dauerhafte, sichere und energieeffiziente Grundlage Ihrer Immobilie.',
     image: '/assets/services/technische.png',
     scope: [
       {
@@ -335,10 +335,10 @@ export const services: Service[] = [
       },
       {
         q: 'Führen Sie die Elektroarbeiten selbst aus?',
-        a: 'Wir arbeiten mit festen Fachpartnern für Elektroinstallation zusammen — langjährig und geprüft. Koordination und Gewährleistung liegen bei Spreewerk.',
+        a: 'Wir arbeiten mit festen Fachpartnern für Elektroinstallation zusammen - langjährig und geprüft. Koordination und Gewährleistung liegen bei Spreewerk.',
       },
     ],
-    metaTitle: 'Technische Gewerke Berlin | Elektro, Sanitär, Heizung — Spreewerk',
+    metaTitle: 'Technische Gewerke Berlin | Elektro, Sanitär, Heizung - Spreewerk',
     metaDescription:
       'Elektroinstallation, Sanitär und Heizung in Berlin. Normgerecht, dokumentiert, aus einer Hand. Jetzt kostenlos beraten lassen.',
   },

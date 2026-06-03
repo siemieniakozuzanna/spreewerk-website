@@ -15,12 +15,12 @@ export function FeaturedProject() {
         {/* Main editorial split */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch">
 
-          {/* Image — 7 cols, taller */}
+          {/* Image - 7 cols, taller */}
           <AnimatedSection className="lg:col-span-7">
             <div className="relative h-[400px] md:h-[560px] lg:h-[640px] overflow-hidden">
               <Image
                 src="/assets/projects/p04-after.png"
-                alt="Komplettsanierung Berlin — restaurierte Gründerzeitwohnung mit Originalstuck und Fischgrätparkett"
+                alt="Komplettsanierung Berlin - restaurierte Gründerzeitwohnung mit Originalstuck und Fischgrätparkett"
                 fill
                 className="object-cover"
                 style={{ objectPosition: '30% center' }}
@@ -29,7 +29,7 @@ export function FeaturedProject() {
             </div>
           </AnimatedSection>
 
-          {/* Details — 5 cols */}
+          {/* Details - 5 cols */}
           <AnimatedSection delay={0.18} className="lg:col-span-5 lg:pl-16 xl:pl-20 flex flex-col justify-center pt-10 lg:pt-0">
             <span className="text-[11px] font-medium tracking-[0.22em] uppercase text-navy/35 font-body mb-6">
               Komplettsanierung · Berlin · 2023
@@ -77,13 +77,13 @@ export function FeaturedProject() {
           </AnimatedSection>
         </div>
 
-        {/* Transformation thumbnail strip — hidden on mobile to prevent overflow */}
+        {/* Transformation thumbnail strip - hidden on mobile to prevent overflow */}
         <AnimatedSection delay={0.25} className="mt-10 hidden sm:flex items-center gap-5">
           <span className="text-[10px] font-medium tracking-[0.18em] uppercase text-navy/25 font-body flex-shrink-0">Vorher</span>
           <div className="relative w-36 overflow-hidden flex-shrink-0" style={{ height: '88px' }}>
             <Image
               src="/assets/projects/p04-before.png"
-              alt="Gründerzeitwohnung Berlin — vor der Komplettsanierung durch Spreewerk"
+              alt="Gründerzeitwohnung Berlin - vor der Komplettsanierung durch Spreewerk"
               fill
               className="object-cover"
               sizes="144px"
@@ -95,7 +95,7 @@ export function FeaturedProject() {
           <div className="relative w-36 overflow-hidden flex-shrink-0" style={{ height: '88px' }}>
             <Image
               src="/assets/projects/p04-after.png"
-              alt="Gründerzeitwohnung Berlin — nach hochwertiger Komplettsanierung durch Spreewerk"
+              alt="Gründerzeitwohnung Berlin - nach hochwertiger Komplettsanierung durch Spreewerk"
               fill
               className="object-cover"
               sizes="144px"

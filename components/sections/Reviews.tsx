@@ -59,7 +59,7 @@ export function Reviews() {
         {/* Header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-20 mb-14 items-end">
 
-          {/* Left — headline */}
+          {/* Left - headline */}
           <AnimatedSection className="lg:col-span-6">
             <SectionLabel>Kundenstimmen</SectionLabel>
             <h2
@@ -69,11 +69,11 @@ export function Reviews() {
               Das sagen<br />unsere Kunden.
             </h2>
             <p className="text-dark/50 font-body text-[16px] leading-[1.75] max-w-md">
-              Vertrauen entsteht durch saubere Arbeit, klare Kommunikation und zuverlässige Umsetzung — bei jeder Wohnungssanierung in Berlin.
+              Vertrauen entsteht durch saubere Arbeit, klare Kommunikation und zuverlässige Umsetzung.
             </p>
           </AnimatedSection>
 
-          {/* Right — Google rating */}
+          {/* Right - Google rating */}
           <AnimatedSection delay={0.15} className="lg:col-span-6 flex lg:justify-end">
             <div className="flex items-center gap-6 md:gap-8 bg-white rounded-2xl px-7 py-6 shadow-[0_2px_28px_rgba(9,18,36,0.07)]">
               <div className="flex flex-col items-center gap-1.5">
@@ -116,7 +116,7 @@ export function Reviews() {
                       {review.author.charAt(0)}
                     </span>
                   </div>
-                  <p className="text-dark/45 font-body text-[13px] font-medium">— {review.author}, Berlin</p>
+                  <p className="text-dark/45 font-body text-[13px] font-medium">- {review.author}, Berlin</p>
                 </div>
               </div>
             </AnimatedSection>

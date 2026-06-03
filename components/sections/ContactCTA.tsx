@@ -13,12 +13,12 @@ export function ContactCTA() {
       <BlueprintLines />
       <SWWatermark />
 
-      {/* Team photo — trust anchor before the CTA */}
+      {/* Team photo - trust anchor before the CTA */}
       <AnimatedSection>
         <div className="relative w-full overflow-hidden" style={{ height: 'clamp(300px, 38vw, 520px)' }}>
           <Image
             src="/assets/team/ourteam.png"
-            alt="Ihr Team für Altbausanierung und Wohnungssanierung in Berlin — Spreewerk Sanierung"
+            alt="Ihr Team für Altbausanierung und Wohnungssanierung in Berlin - Spreewerk Sanierung"
             fill
             className="object-cover object-top"
             sizes="100vw"
@@ -65,7 +65,7 @@ export function ContactCTA() {
             </p>
           </AnimatedSection>
 
-          {/* Right — form */}
+          {/* Right - form */}
           <AnimatedSection delay={0.15} className="lg:col-span-6">
             <form className="space-y-4" action="#" onSubmit={(e) => e.preventDefault()}>
               <div>

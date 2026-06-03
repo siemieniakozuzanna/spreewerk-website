@@ -9,7 +9,7 @@ export function UeberMission() {
             className="font-heading font-semibold text-dark max-w-4xl"
             style={{ fontSize: 'clamp(24px, 3vw, 40px)', lineHeight: 1.25 }}
           >
-            Spreewerk wurde gegründet, weil Sanierung in Berlin besser sein kann — präziser,
+            Spreewerk wurde gegründet, weil Sanierung in Berlin besser sein kann - präziser,
             transparenter, handwerklich anspruchsvoller. Wir bringen den Anspruch eines
             Architekturbüros in die Ausführung eines Handwerksbetriebs.
           </p>

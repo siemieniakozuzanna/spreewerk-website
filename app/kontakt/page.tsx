@@ -74,7 +74,7 @@ export default function KontaktPage() {
                   <div className="pt-4 border-t border-white/10">
                     <p className="text-white/40 font-body text-[14px] leading-relaxed">
                       Kostenloser Vor-Ort-Termin in ganz Berlin & Brandenburg.
-                      Wir kommen zu Ihnen — unverbindlich und ohne Beratungskosten.
+                      Wir kommen zu Ihnen - unverbindlich und ohne Beratungskosten.
                     </p>
                   </div>
                 </div>

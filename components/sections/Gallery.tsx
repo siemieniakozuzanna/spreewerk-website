@@ -28,9 +28,9 @@ export function Gallery() {
             <GalleryItem project={projects[1]} imageIndex={0} />
           </AnimatedSection>
 
-          {/* Row 2: three equal — all at h-72 md:h-96 for better bathroom visibility */}
+          {/* Row 2: three equal - all at h-72 md:h-96 for better bathroom visibility */}
           <AnimatedSection delay={0.05}>
-            {/* p03: Badsanierung Mosaikfliesen — right+down to reveal bathtub */}
+            {/* p03: Badsanierung Mosaikfliesen - right+down to reveal bathtub */}
             <GalleryItem
               project={projects[2]}
               imageIndex={0}
@@ -46,7 +46,7 @@ export function Gallery() {
             />
           </AnimatedSection>
           <AnimatedSection delay={0.15}>
-            {/* p05: Bad Dunkelgrün — push far down to expose fixtures, reduce dark upper wall */}
+            {/* p05: Bad Dunkelgrün - push far down to expose fixtures, reduce dark upper wall */}
             <GalleryItem
               project={projects[4]}
               imageIndex={0}
@@ -57,7 +57,7 @@ export function Gallery() {
 
           {/* Row 3: full-width */}
           <AnimatedSection delay={0.1} className="md:col-span-3">
-            {/* p06: Bad Travertin — left+down to centre shower niches, reduce empty wall */}
+            {/* p06: Bad Travertin - left+down to centre shower niches, reduce empty wall */}
             <GalleryItem
               project={projects[5]}
               imageIndex={0}
@@ -112,7 +112,7 @@ function GalleryItem({
       <div className={`relative overflow-hidden ${heightClass ?? defaultHeight}`}>
         <Image
           src={src}
-          alt={`${project.title} — Sanierungsprojekt in Berlin von Spreewerk`}
+          alt={`${project.title} - Sanierungsprojekt in Berlin von Spreewerk`}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
           style={{ objectPosition }}

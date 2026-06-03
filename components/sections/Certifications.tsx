@@ -23,7 +23,7 @@ export function Certifications() {
             <div className="w-full max-w-lg">
               <Image
                 src="/assets/certs/certificates.jpg"
-                alt="Zertifizierungen und Auszeichnungen — Spreewerk Sanierungsbetrieb Berlin"
+                alt="Zertifizierungen und Auszeichnungen - Spreewerk Sanierungsbetrieb Berlin"
                 width={900}
                 height={300}
                 className="w-full h-auto object-contain"

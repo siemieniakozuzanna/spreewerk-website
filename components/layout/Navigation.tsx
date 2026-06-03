@@ -36,7 +36,7 @@ export function Navigation() {
       >
         <div className="max-w-site mx-auto px-6 md:px-12 lg:px-20 flex items-center">
 
-          {/* Logo — left */}
+          {/* Logo - left */}
           <Link href="/" className="flex-shrink-0 flex items-center">
             <Image
               src="/assets/logo/logo-w-cropped.png"
@@ -48,7 +48,7 @@ export function Navigation() {
             />
           </Link>
 
-          {/* Nav links — centered */}
+          {/* Nav links - centered */}
           <nav className="hidden md:flex flex-1 justify-center items-center gap-9">
             {navLinks.map((link) => (
               <Link
@@ -61,7 +61,7 @@ export function Navigation() {
             ))}
           </nav>
 
-          {/* CTAs — right */}
+          {/* CTAs - right */}
           <div className="hidden md:flex items-center gap-3 flex-shrink-0">
             {/* Phone */}
             <a
@@ -111,7 +111,7 @@ export function Navigation() {
 
         <div className="relative flex flex-col h-full px-8 pt-28 pb-12">
 
-          {/* Primary CTA — prominent top action */}
+          {/* Primary CTA - prominent top action */}
           <a
             href="#kontakt"
             onClick={() => setMenuOpen(false)}
@@ -138,7 +138,7 @@ export function Navigation() {
             ))}
           </nav>
 
-          {/* Phone — bottom of menu */}
+          {/* Phone - bottom of menu */}
           <a
             href="tel:030544532946"
             className="inline-flex items-center gap-3 text-white/50 font-body text-[15px] font-medium hover:text-white transition-colors duration-200 mt-10"

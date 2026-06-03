@@ -7,7 +7,7 @@ export function UeberWork() {
       <div className="max-w-site mx-auto px-6 md:px-12 lg:px-20">
         <AnimatedSection className="mb-4">
           <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-navy/30 font-body">
-            Berliner Altbau — In Arbeit
+            Berliner Altbau - In Arbeit
           </span>
         </AnimatedSection>
 
@@ -25,7 +25,7 @@ export function UeberWork() {
 
         <AnimatedSection delay={0.1} className="mt-6 max-w-xl">
           <p className="text-dark/50 font-body text-[15px] leading-relaxed">
-            Unsere Arbeit spielt sich hauptsächlich in Berlins charaktervollsten Gebäuden ab —
+            Unsere Arbeit spielt sich hauptsächlich in Berlins charaktervollsten Gebäuden ab -
             Gründerzeithäusern mit Stuck, Kassettenfenstern und Fischgrätparkett.
             Handwerk, das Geschichte respektiert.
           </p>

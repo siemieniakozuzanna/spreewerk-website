@@ -10,7 +10,7 @@ import { ContactCTA } from '@/components/sections/ContactCTA'
 export const metadata: Metadata = {
   title: 'Über uns',
   description:
-    'Lernen Sie das Team hinter Spreewerk Sanierung kennen. Handwerk mit Haltung — seit Jahren in Berliner Altbauten zuhause.',
+    'Lernen Sie das Team hinter Spreewerk Sanierung kennen. Handwerk mit Haltung - seit Jahren in Berliner Altbauten zuhause.',
 }
 
 export default function UeberUnsPage() {

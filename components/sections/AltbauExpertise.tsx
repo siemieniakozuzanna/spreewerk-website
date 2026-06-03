@@ -5,7 +5,7 @@ import { AnimatedSection } from '@/components/ui/AnimatedSection'
 const expertise = [
   'Stuckrestauration nach historischem Vorbild',
   'Fischgrätparkett, Massivdielen & Kassettentüren',
-  'Denkmalgerechte Ausführung — Originalsubstanz erhalten',
+  'Denkmalgerechte Ausführung - Originalsubstanz erhalten',
   'Moderne Technik unsichtbar integriert',
 ]
 
@@ -16,12 +16,12 @@ export function AltbauExpertise() {
       <div className="absolute inset-0">
         <Image
           src="/assets/team/altbauwork1.png"
-          alt="Altbausanierung Berlin — Spreewerk Sanierung bei der Restaurierung historischer Berliner Bausubstanz"
+          alt="Altbausanierung Berlin - Spreewerk Sanierung bei der Restaurierung historischer Berliner Bausubstanz"
           fill
           className="object-cover object-left md:object-center"
           sizes="100vw"
         />
-        {/* Mobile: heavy overlay — image is bright plaster/windows throughout */}
+        {/* Mobile: heavy overlay - image is bright plaster/windows throughout */}
         <div className="absolute inset-0 bg-navy/[0.88] md:bg-navy/[0.78]" />
       </div>
 
@@ -39,7 +39,7 @@ export function AltbauExpertise() {
               Unser Zuhause.
             </h2>
             <p className="text-white/80 md:text-white/60 font-body text-[15px] md:text-[18px] leading-[1.8] mb-8 md:mb-10 max-w-lg">
-              Stuckgesimse, Fischgrätparkett, Kassettenfenster, Gründerzeitfassaden — bei jeder Altbausanierung in Berlin verstehen wir historische Bausubstanz nicht als Einschränkung, sondern als das eigentliche Qualitätsmerkmal.
+              Stuckgesimse, Fischgrätparkett, Kassettenfenster, Gründerzeitfassaden - bei jeder Altbausanierung in Berlin verstehen wir historische Bausubstanz nicht als Einschränkung, sondern als das eigentliche Qualitätsmerkmal.
             </p>
 
             {/* Expertise points */}
