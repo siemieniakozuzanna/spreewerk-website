@@ -16,7 +16,7 @@ export function AltbauExpertise() {
       <div className="absolute inset-0">
         <Image
           src="/assets/team/altbauwork1.png"
-          alt="Spreewerk Team bei der Altbausanierung in Berlin"
+          alt="Altbausanierung Berlin — Spreewerk Sanierung bei der Restaurierung historischer Berliner Bausubstanz"
           fill
           className="object-cover object-left md:object-center"
           sizes="100vw"
@@ -34,13 +34,12 @@ export function AltbauExpertise() {
               className="font-heading font-bold text-white mb-7 md:mb-6"
               style={{ fontSize: 'clamp(36px, 5vw, 68px)', lineHeight: 0.97 }}
             >
-              Berliner Altbau.
+              Altbausanierung Berlin.
               <br />
               Unser Zuhause.
             </h2>
             <p className="text-white/80 md:text-white/60 font-body text-[15px] md:text-[18px] leading-[1.8] mb-8 md:mb-10 max-w-lg">
-              Stuckgesimse, Fischgrätparkett, Kassettenfenster, Gründerzeitfassaden — wir verstehen historische Bausubstanz nicht als Einschränkung, sondern als das eigentliche Qualitätsmerkmal.
-              Was andere als schwierig abtun, ist für uns der Kern der Arbeit.
+              Stuckgesimse, Fischgrätparkett, Kassettenfenster, Gründerzeitfassaden — bei jeder Altbausanierung in Berlin verstehen wir historische Bausubstanz nicht als Einschränkung, sondern als das eigentliche Qualitätsmerkmal.
             </p>
 
             {/* Expertise points */}

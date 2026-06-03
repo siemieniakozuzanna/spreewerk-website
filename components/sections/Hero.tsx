@@ -12,7 +12,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/assets/hero/hero-main.png"
-          alt="Spreewerk Sanierung Berlin — professionelle Komplettsanierung"
+          alt="Hochwertige Altbausanierung in Berlin — Komplettsanierung durch Spreewerk Sanierung Berlin"
           fill
           className="object-cover"
           style={{ objectPosition: '50% center' }}
@@ -71,8 +71,8 @@ export function Hero() {
             className="text-white/55 font-body leading-[1.75] mb-12 max-w-sm"
             style={{ fontSize: 'clamp(16px, 1.4vw, 19px)' }}
           >
-            Komplettsanierung, Altbau, Bad & Küche —
-            für anspruchsvolle Immobilien in Berlin und Brandenburg.
+            Altbausanierung und Wohnungssanierung in Berlin —
+            hochwertige Komplettsanierung für anspruchsvolle Immobilien.
           </motion.p>
 
           {/* CTAs */}

@@ -13,7 +13,7 @@ export function Certifications() {
               className="font-heading font-semibold text-dark"
               style={{ fontSize: 'clamp(28px, 3vw, 42px)', lineHeight: 1.1 }}
             >
-              Ausgezeichnete Qualität.
+              Zertifizierter Sanierungsbetrieb.
               <br />
               Bestätigtes Vertrauen.
             </h2>
@@ -23,7 +23,7 @@ export function Certifications() {
             <div className="w-full max-w-lg">
               <Image
                 src="/assets/certs/certificates.jpg"
-                alt="Spreewerk Zertifizierungen und Bewertungen"
+                alt="Zertifizierungen und Auszeichnungen — Spreewerk Sanierungsbetrieb Berlin"
                 width={900}
                 height={300}
                 className="w-full h-auto object-contain"

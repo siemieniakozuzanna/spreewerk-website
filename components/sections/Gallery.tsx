@@ -14,7 +14,7 @@ export function Gallery() {
             className="font-heading font-semibold text-dark"
             style={{ fontSize: 'clamp(36px, 4vw, 56px)', lineHeight: 1.05 }}
           >
-            Ausgewählte Arbeiten.
+            Sanierungsprojekte in Berlin.
           </h2>
         </AnimatedSection>
 
@@ -112,7 +112,7 @@ function GalleryItem({
       <div className={`relative overflow-hidden ${heightClass ?? defaultHeight}`}>
         <Image
           src={src}
-          alt={project.title}
+          alt={`${project.title} — Sanierungsprojekt in Berlin von Spreewerk`}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
           style={{ objectPosition }}

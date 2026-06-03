@@ -18,7 +18,7 @@ export function ContactCTA() {
         <div className="relative w-full overflow-hidden" style={{ height: 'clamp(300px, 38vw, 520px)' }}>
           <Image
             src="/assets/team/ourteam.png"
-            alt="Das Spreewerk Team — Ihre Ansprechpartner in Berlin"
+            alt="Ihr Team für Altbausanierung und Wohnungssanierung in Berlin — Spreewerk Sanierung"
             fill
             className="object-cover object-top"
             sizes="100vw"

@@ -69,7 +69,7 @@ export function Reviews() {
               Das sagen<br />unsere Kunden.
             </h2>
             <p className="text-dark/50 font-body text-[16px] leading-[1.75] max-w-md">
-              Vertrauen entsteht durch saubere Arbeit, klare Kommunikation und zuverlässige Umsetzung.
+              Vertrauen entsteht durch saubere Arbeit, klare Kommunikation und zuverlässige Umsetzung — bei jeder Wohnungssanierung in Berlin.
             </p>
           </AnimatedSection>
 

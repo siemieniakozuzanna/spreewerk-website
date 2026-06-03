@@ -20,7 +20,7 @@ export function FeaturedProject() {
             <div className="relative h-[400px] md:h-[560px] lg:h-[640px] overflow-hidden">
               <Image
                 src="/assets/projects/p04-after.png"
-                alt="Restaurierte Berliner Gründerzeitwohnung — Komplettsanierung"
+                alt="Komplettsanierung Berlin — restaurierte Gründerzeitwohnung mit Originalstuck und Fischgrätparkett"
                 fill
                 className="object-cover"
                 style={{ objectPosition: '30% center' }}
@@ -83,7 +83,7 @@ export function FeaturedProject() {
           <div className="relative w-36 overflow-hidden flex-shrink-0" style={{ height: '88px' }}>
             <Image
               src="/assets/projects/p04-before.png"
-              alt="Gründerzeitwohnung vor der Sanierung"
+              alt="Gründerzeitwohnung Berlin — vor der Komplettsanierung durch Spreewerk"
               fill
               className="object-cover"
               sizes="144px"
@@ -95,7 +95,7 @@ export function FeaturedProject() {
           <div className="relative w-36 overflow-hidden flex-shrink-0" style={{ height: '88px' }}>
             <Image
               src="/assets/projects/p04-after.png"
-              alt="Gründerzeitwohnung nach der Sanierung"
+              alt="Gründerzeitwohnung Berlin — nach hochwertiger Komplettsanierung durch Spreewerk"
               fill
               className="object-cover"
               sizes="144px"

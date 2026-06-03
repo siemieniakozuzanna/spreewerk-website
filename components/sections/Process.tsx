@@ -38,7 +38,7 @@ export function Process() {
             className="font-heading font-semibold text-dark"
             style={{ fontSize: 'clamp(36px, 4vw, 56px)', lineHeight: 1.05 }}
           >
-            Von der Anfrage bis zur Übergabe.
+            Ihre Sanierung in Berlin — von der Anfrage bis zur Übergabe.
           </h2>
         </AnimatedSection>
 

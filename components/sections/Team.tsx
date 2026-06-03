@@ -43,7 +43,7 @@ export function Team() {
                 <div className="relative aspect-[3/4] overflow-hidden mb-5">
                   <Image
                     src={member.image}
-                    alt={member.title}
+                    alt={`${member.title} bei Spreewerk Sanierung Berlin`}
                     fill
                     className="object-cover"
                     style={{ objectPosition: '50% 30%' }}

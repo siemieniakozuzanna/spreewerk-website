@@ -12,7 +12,7 @@ export function Services() {
         <AnimatedSection className="mb-16">
           <SectionLabel>Leistungen</SectionLabel>
           <h2 className="font-heading font-semibold text-dark" style={{ fontSize: 'clamp(36px, 4vw, 56px)', lineHeight: 1.05 }}>
-            Was wir für Sie tun.
+            Sanierungsleistungen in Berlin.
           </h2>
         </AnimatedSection>
 
@@ -63,7 +63,7 @@ export function Services() {
                   >
                     <Image
                       src={service.image}
-                      alt={service.title}
+                      alt={`${service.title} — Sanierungsleistung von Spreewerk Berlin`}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                       sizes="(max-width: 768px) 100vw, 320px"
